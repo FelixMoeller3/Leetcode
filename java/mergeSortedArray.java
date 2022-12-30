@@ -23,11 +23,4 @@ class Solution {
             curIndex++;
         }
     }
-
-    public static void main(String[] args) {
-        int[] nums1 = {1,2,3,0,0,0};
-        int[] nums2 = {2,6,3};
-        Solution s = new Solution();
-        s.merge(nums1, 3, nums2, 3);
-    }
 }

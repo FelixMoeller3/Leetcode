@@ -1,9 +1,8 @@
 import java.util.List;
-import java.security.Permissions;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class permutations2 {
+public class PermutationsTwo {
     public List<List<Integer>> permuteUnique(int[] nums) {
         List<List<Integer>> results = new ArrayList<>();
         
@@ -45,20 +44,6 @@ public class permutations2 {
                 }
             }
             return results;
-        }
-    }
-
-    public static void main(String[] args) {
-        int[] nums = {1,1,3};
-        permutations2 a = new permutations2();
-        List<List<Integer>> perms = a.getPermutations(nums);
-        for(List<Integer> test: perms) {
-            String res = "[ ";
-            for(Integer i: test) {
-                res += i.toString() + " ";
-            }
-            res += "]";
-            System.out.println(res);
         }
     }
 }
