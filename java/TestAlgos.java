@@ -2,8 +2,8 @@ import java.util.List;
 
 public class TestAlgos {
     public static void main(String[] args) {
-        String[]grid = {"ac","c"};
-        List<List<String>> result = GroupAnagrams.groupAnagrams(grid);
+        int[]nums = {1,5,2,6,2,6};
+        int result = LongestConsecutiveSequence.longestConsecutive(nums);
         System.out.println(result);
     }
 }
