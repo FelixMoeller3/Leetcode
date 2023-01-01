@@ -1,9 +1,7 @@
-import java.util.List;
-
 public class TestAlgos {
     public static void main(String[] args) {
-        int[]nums = {1,5,2,6,2,6};
-        int result = LongestConsecutiveSequence.longestConsecutive(nums);
+        int[]nums = {1,3,2,5,25,24,5};
+        int result = ContainerWithMostWater.maxArea(nums);
         System.out.println(result);
     }
 }
