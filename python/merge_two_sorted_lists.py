@@ -4,7 +4,7 @@
 #         self.val = val
 #         self.next = next
 from typing import Optional
-
+from linked_list_helper import ListNode
 
 class Solution:
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:

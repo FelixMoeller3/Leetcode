@@ -4,6 +4,7 @@
 #         self.val = val
 #         self.next = next
 from typing import Optional
+from linked_list_helper import ListNode
 
 
 class Solution:
